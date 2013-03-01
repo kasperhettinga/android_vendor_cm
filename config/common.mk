@@ -160,7 +160,6 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
-    CMUpdater \
     CMFileManager \
     LockClock \
     CMAccount
@@ -239,7 +238,7 @@ else
     ifeq ($(PRODUCT_VERSION_MINOR),0)
         CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
     else
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
+    CM_VERSION := Mackay_ROM_2.6.6
     endif
 endif
 
