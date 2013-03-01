@@ -5,7 +5,7 @@
 
 export C=/tmp/backupdir
 export S=/system
-export V=10.2
+export V=Mackay_ROM_3
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
