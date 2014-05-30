@@ -295,9 +295,9 @@ ifeq ($(CM_BUILDTYPE), RELEASE)
     endif
 else
     ifeq ($(PRODUCT_VERSION_MINOR),0)
-    CM_VERSION := Mackay_ROM_4.1.6
+    CM_VERSION := Mackay_ROM_4.9.11
     else
-    CM_VERSION := Mackay_ROM_4.1.6
+    CM_VERSION := Mackay_ROM_4.9.11
     endif
 endif
 
